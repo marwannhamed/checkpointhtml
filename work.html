@@ -2,6 +2,17 @@
 <html>
   <head>
     <title>darek web</title>
+    <link rel="stylesheet" href="work.css" />
+    <style>
+      .cs li {
+        display: inline-block;
+      }
+    </style>
+    <style>
+      body {
+        font-family: "Roboto";
+      }
+    </style>
   </head>
   <body>
     <!-- header -->
@@ -12,19 +23,21 @@
         alt="error"
         width="5%"
       />
-      <nav>
-        <ul>
-          <li><a href="">home</a></li>
-          <li><a href="">about</a></li>
-          <li><a href="">contact</a></li>
-        </ul>
-      </nav>
+      <div class="cs">
+        <nav>
+          <ul>
+            <li><a href="work.html">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- main -->
     <main style="border-style: solid">
       <h1>main</h1>
       <dl>
-        <dt>about</dt>
+        <dt id="about">about</dt>
         <dd>
           <ul>
             <li>name :</li>
@@ -46,7 +59,8 @@
     <!-- footer -->
     <footer style="border-style: solid">
       <h1>footer</h1>
-      <h2>contact</h2>
+      <h2 id="contact">contact</h2>
+
       <form action="welcome.html">
         <table>
           <tr>
